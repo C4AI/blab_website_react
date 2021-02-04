@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/blab_website_react/static/css/main.7a689177.chunk.css",
-    "main.js": "/blab_website_react/static/js/main.a33b28c0.chunk.js",
-    "main.js.map": "/blab_website_react/static/js/main.a33b28c0.chunk.js.map",
+    "main.css": "/blab_website_react/static/css/main.10493e97.chunk.css",
+    "main.js": "/blab_website_react/static/js/main.8da61651.chunk.js",
+    "main.js.map": "/blab_website_react/static/js/main.8da61651.chunk.js.map",
     "runtime-main.js": "/blab_website_react/static/js/runtime-main.a74271a5.js",
     "runtime-main.js.map": "/blab_website_react/static/js/runtime-main.a74271a5.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/blab_website_react/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.bc9680ad.chunk.js": "/blab_website_react/static/js/2.bc9680ad.chunk.js",
-    "static/js/2.bc9680ad.chunk.js.map": "/blab_website_react/static/js/2.bc9680ad.chunk.js.map",
+    "static/js/2.bf39c3f1.chunk.js": "/blab_website_react/static/js/2.bf39c3f1.chunk.js",
+    "static/js/2.bf39c3f1.chunk.js.map": "/blab_website_react/static/js/2.bf39c3f1.chunk.js.map",
     "index.html": "/blab_website_react/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/blab_website_react/static/css/2.b57b7cfd.chunk.css.map",
-    "static/css/main.7a689177.chunk.css.map": "/blab_website_react/static/css/main.7a689177.chunk.css.map",
-    "static/js/2.bc9680ad.chunk.js.LICENSE.txt": "/blab_website_react/static/js/2.bc9680ad.chunk.js.LICENSE.txt",
+    "static/css/main.10493e97.chunk.css.map": "/blab_website_react/static/css/main.10493e97.chunk.css.map",
+    "static/js/2.bf39c3f1.chunk.js.LICENSE.txt": "/blab_website_react/static/js/2.bf39c3f1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/blab_website_react/static/media/Horizon Type - AcherusGrotesque-Regular.c9e34de1.otf",
+    "static/media/cozman.bf290e56.jpg": "/blab_website_react/static/media/cozman.bf290e56.jpg",
     "static/media/agency.min.css": "/blab_website_react/static/media/map-image.3cd6dd98.png",
     "static/media/img1.ba64cae2.jpg": "/blab_website_react/static/media/img1.ba64cae2.jpg",
     "static/media/img2.bc042ad6.jpg": "/blab_website_react/static/media/img2.bc042ad6.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.a74271a5.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.bc9680ad.chunk.js",
-    "static/css/main.7a689177.chunk.css",
-    "static/js/main.a33b28c0.chunk.js"
+    "static/js/2.bf39c3f1.chunk.js",
+    "static/css/main.10493e97.chunk.css",
+    "static/js/main.8da61651.chunk.js"
   ]
 }
