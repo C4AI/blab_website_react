@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../assets/img/logo192.png';
 
 function Navbar() {
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+      if(window.scrollY >= 660){
+        setNavbar(true)
+      }else{
+        setNavbar(false)
+      }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav className={navbar ? 'navbar active' : 'navbar navbar-expand-lg navbar-dark fixed-top'} id="mainNav">
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="http://c4ai.inova.usp.br/pt/home-2/">
-              <img src={logo} style={{width:80, marginTop: -7}} />
+              <img src={logo} style={{width:80, marginTop: 0}} />
             </a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               Menu

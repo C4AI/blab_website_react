@@ -1,4 +1,7 @@
 import React from 'react';
+import member1 from '../assets/img/cozman.jpg';
+import member2 from '../assets/img/cozman.jpg';
+import member3 from '../assets/img/cozman.jpg';
 
 function Team() {
     return (
@@ -13,7 +16,7 @@ function Team() {
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="team-member">
-                            <img className="mx-auto rounded-circle" src="../assets/img/cozman.jpg" alt=""/>
+                            <img className="mx-auto rounded-circle" src={member1} alt=""/>
                             <h4>Fábio Cozman</h4>
                             <p className="text-muted">Executive Director</p>
                             <ul className="list-inline social-buttons">
@@ -37,7 +40,7 @@ function Team() {
                     </div>
                     <div className="col-sm-4">
                         <div className="team-member">
-                            <img className="mx-auto rounded-circle" src="../assets/img/cozman.jpg" alt=""/>
+                            <img className="mx-auto rounded-circle" src={member2} alt=""/>
                             <h4>Anna Reali</h4>
                             <p className="text-muted">Position</p>
                             <ul className="list-inline social-buttons">
@@ -61,7 +64,7 @@ function Team() {
                     </div>
                     <div className="col-sm-4">
                         <div className="team-member">
-                            <img className="mx-auto rounded-circle" src="../assets/img/cozman.jpg" alt=""/>
+                            <img className="mx-auto rounded-circle" src={member3} alt=""/>
                             <h4>Another Member</h4>
                             <p className="text-muted">Position</p>
                             <ul className="list-inline social-buttons">
